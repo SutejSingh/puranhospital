@@ -90,6 +90,14 @@
     justify-content: center;
 }
 
+.new{
+    background-color: #EC5D43;
+    border-radius: 10px;
+    padding: 2px;
+    color: aliceblue;
+    border-bottom-style:groove;
+}
+
 
 /*=========================Custom Formats END==============================*/
 /*-----------------------------------
@@ -363,6 +371,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .hero-caption { padding-top: 150px; padding-bottom: 150px; }
 .hero-title { color: aliceblue;    
     font-size:42px;
+    font-weight:bolder;
     margin-top: 30px;
     margin-bottom:30px;
     line-height: 105px; }
@@ -483,13 +492,16 @@ visibility: hidden; line-height: 0; height: 0;}*/
 /*-------------------------
  9.1 About us
 ---------------------------*/
+.about-section{
+    padding-bottom: 80px;
+}
 .about-text { line-height: 40px; }
 .doctor-block { }
 .doctor-img { float: left; padding-right: 40px; }
 .doctor-info { margin-bottom: 50px; word-break: break-word; display: inline-block; }
 .doctor-meta { font-size: 12px; color: #fe5036; text-transform: uppercase; font-weight: 600; }
 .doctor-contact { font-size: 18px; color: #8c9292; font-weight: 600; margin-left: 5px; }
-.doctor-detail { clear: both; }
+.doctor-detail { clear: both;  font-stretch: expanded; justify-content: space-between;}
 
 /*-------------------------
  9.2  Service / single / sidebar
