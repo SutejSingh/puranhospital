@@ -52,6 +52,12 @@
 
 /*=========================Custom Formats==================================*/
 
+
+#img-hover:hover{
+    transition: transform .4s;
+    transform: scale(1.2);
+}
+
 #calender{
     position: relative; 
     padding-bottom: 75%; 
