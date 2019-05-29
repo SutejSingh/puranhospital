@@ -547,7 +547,7 @@ visibility: hidden; line-height: 0; height: 0;}*/
 /*-------------------------
   9.8 Contact us
 ---------------------------*/
-.contact-info { background-color: #fe5036; color: #fff; }
+.contact-info { background-color: #fe5036; color: #fff; margin-bottom: 30px;}
 .contact-info-title { border-bottom: 1px solid #ff8775; margin-bottom: 29px; padding-bottom: 30px; color: #fff; }
 .contact-info ul { padding-left: 0px; }
 .contact-info li { position: relative; padding-left: 70px; margin-bottom: 30px; }
